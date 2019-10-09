@@ -1,16 +1,15 @@
 .card {
   background: #fff;
   border-radius: 2px;
-  height: 250px;
+  height: auto;
   margin: 1rem;
-  position: relative;
-  width: 300px;
+  position: -webkit-sticky;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
   text-align: center;
 }
 
 .card > .img-container {
-  height: 90%;
+  height: 80%;
   overflow: hidden;
   text-align: center;
   background: #6caddc;
@@ -20,6 +19,7 @@
   height:80%;
   width: 80%;
   margin: 10%;
+  text-align: center;
 }
 
 .card > .img-container > .itemName {
@@ -30,4 +30,5 @@
   padding-left: 1rem;
   padding-right: 1rem;
   font-size: 15px;
+  text-align: center;
 }

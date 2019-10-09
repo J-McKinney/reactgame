@@ -2,9 +2,11 @@
   padding-top: 50px;
   background: whitesmoke;
   height: 100%;
+  width: 100%;
+  text-align: center;
   display: flex;
   flex-flow: row wrap;
-  padding: 30px;
+  padding: 30pxs;
   justify-content: space-around;
   align-content: flex-start;
   overflow: auto;

@@ -8,7 +8,7 @@ import "./App.css";
 let correctGuesses = 0;
 let usersHighScore = 0;
 let message =
-  "Click an item to score points, click the same one twice and it's Game Over.";
+  "Click an item to score points, click the same item twice and it's Game Over.";
 
 class App extends Component {
   // Setting this.state.cards to the cards json array
@@ -70,7 +70,7 @@ class App extends Component {
       this.setState({ cards });
       this.setState({ correctGuesses });
       this.setState({ message });
-    }
+    };
   };
 
   render() {
@@ -100,7 +100,7 @@ class App extends Component {
         </div>
       </Wrapper>
     );
-  }
+  };
 };
 
 export default App;
